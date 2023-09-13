@@ -1,0 +1,23 @@
+ /* Define a CSS class for the table */
+ .custom-table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Apply styles to table headers */
+.custom-table th {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Apply styles to table cells */
+.custom-table td {
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
