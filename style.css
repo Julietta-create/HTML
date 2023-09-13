@@ -21,3 +21,27 @@
     padding: 10px;
     text-align: center;
 }
+
+
+
+.table-lab {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Apply styles to table headers */
+.table-lab tr {
+    background-color: rgb(201, 230, 173);
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Apply styles to table cells */
+.table-lab td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
