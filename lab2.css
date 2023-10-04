@@ -60,5 +60,5 @@ li:first-child {
   }
   
   a::after {
-    content: " ::after content";
-  }
+    content: "↗";
+}
