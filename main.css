@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid,
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+/* header css */
+
+.header {
+    width: 100%;
+    height: 10vh;
+}
+
+.header-menu {
+    margin-top: 5px;
+    display: flex;
+    justify-content: end;   
+    border-right: 1px solid gray;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.header-menu-container {
+    justify-content: end;
+}
+
+.nav>p {
+    text-align: center;
+}
+
+
+.ul {
+    height: 80%;
+    width: 20% !important;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    color: black;
+    padding: 3px;
+    min-width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* main css */
+
+.main-container {
+    width: 100% !important ;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper {
+    width: 70dvw;
+}
+
+.main-information {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-information-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    width: 75%;
+}
+
+.main-information-image {
+    height: 100h;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    height: 200px;
+    box-shadow: -10px 10px 10px #EDF7FA;
+}
+
+.main-information-text-button {
+    background-color: #FF6464;
+    color: white;
+    border-radius: 0;
+    padding: 10px;
+    border: none;
+}
+
+/* postst section */
+
+.posts-wrapper {
+    background-color: #EDF7FA;
+}
+.post-section {
+    display: flex;
+}
+.post-section-action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid black ;
+}
+
+.posts-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+
+.post {
+    border: 1px solid black;
+    width: 418px;
+    height: 300px;
+}
+
+

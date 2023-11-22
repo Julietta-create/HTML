@@ -4,54 +4,6 @@ body {
   padding: 0;
 }
 
-.container {
-  display: flex;
-  min-width: 100dvw;
-}
-
-.nav {
-  width: 10dvw;
-  height: 100dvh;
-  margin-top: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-right: 1px solid gray;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.nav>p {
-  text-align: center;
-}
-
-.nav>div {
-  height: 30dvh;
-}
-
-.nav>div>ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 80%;
-  border-radius: 10px;
-  padding: 0;
-}
-
-.nav>div>ul>li {
-  text-align: center;
-  list-style: none;
-  background-color: rgb(117, 115, 103);
-  color: white;
-  padding: 5px;
-  min-width: 50px;
-  border-radius: 5px;
-  text-align: center;
-
-}
-
 .main-section {
   width: 89dvw;
 }
