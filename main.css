@@ -308,68 +308,106 @@ footer {
 
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media (max-width: 1250px) {
     .header {
         height: 5dvh;
     }
-    .start-section{
-        height: 95dvh;
+
+    .start-section {
+        height: auto;
+        padding-bottom: 50px;
     }
+
     .main-information {
-        width: 500px;
+        width: 100%;
         text-align: center;
     }
+
     .main-information {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .main-information-text {
         justify-content: center;
         align-items: center;
-    
+
     }
 
     .posts-wrapper {
-        height: 85dvh
+        height: auto
     }
+
     .posts-container {
         flex-direction: column;
         width: auto;
         align-items: center;
-        justify-content: space-between;
-        height: 80dvh;
-    }
-    .post-section-action {
-        width: auto;
-    }
-    .a {
-        opacity: 0 !important;
+        justify-content: flex-start;
+        height: auto;
     }
 
     .post {
-        width: 50%;
+        margin-top: 20px;
     }
 
-}
+    .post-section-action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-   
-}
+    .post-action {
+        text-align: center !important;
+    }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {
+    .post-section-action>span {
+        padding: 0 !important;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 60px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    .a {
+        display: none;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+    .works-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .work-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    .footer-wrapper {
+        width: 80%;
+    }
+
+    .footer-social-wrapper {
+        justify-content: space-evenly;
+    }
 
 }
