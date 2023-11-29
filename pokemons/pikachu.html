@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pokemon.css">
+</head>
+<body>
+  <main id=app>
+  
+    <h1>Pokéball Sprite Animations</h1>
+  
+    <div class="pokemon">
+      
+      <!-- the 'pkmn' element requires a few divs to
+        be able to render the whole set of animations -->
+      
+      <div class="pkmn exit left">
+        <div class="poke ball">
+          <span class="x">
+            <span class="y">
+              <span class="sprite">
+              </span>
+            </span>
+          </span>
+        </div>
+        <div class="mon"></div>
+        <div class="explode"></div>
+      </div>
+      <div class="pkmn exit right">
+        <div class="premier ball">
+          <span class="x">
+            <span class="y">
+              <span class="sprite">
+              </span>
+            </span>
+          </span>
+        </div>
+        <div class="mon"></div>
+        <div class="explode"></div>
+      </div>
+      
+    </div>
+    
+    <p>A collection of pokéball css animations; 
+      using both sprite cycling and transforms.</p>
+    
+    <section class="balls">
+      
+      <!-- the 'ball' element can perform all the animations
+        using a single div with psuedo-elements. -->
+      
+      <div class="poke ball"></div>
+      <div class="poke ball side"></div>
+      <div class="poke ball open"></div>
+      <div class="poke ball roll"></div>
+      <div class="poke ball rock"></div>
+      <div class="poke ball bounce"></div>
+      
+    </section>
+    
+    <section class="balls">
+      
+      <div class="great ball"></div>
+      <div class="great ball side"></div>
+      <div class="great ball open"></div>
+      <div class="great ball roll"></div>
+      <div class="great ball rock"></div>
+      <div class="great ball bounce"></div>
+      <div class="ultra ball"></div>
+      <div class="ultra ball side"></div>
+      <div class="ultra ball open"></div>
+      <div class="ultra ball roll"></div>
+      <div class="ultra ball rock"></div>
+      <div class="ultra ball bounce"></div>
+      <div class="master ball"></div>
+      <div class="master ball side"></div>
+      <div class="master ball open"></div>
+      <div class="master ball roll"></div>
+      <div class="master ball rock"></div>
+      <div class="master ball bounce"></div>
+      
+      <div class="safari ball"></div>
+      <div class="safari ball side"></div>
+      <div class="safari ball open"></div>
+      <div class="safari ball roll"></div>
+      <div class="safari ball rock"></div>
+      <div class="safari ball bounce"></div>
+      <div class="premier ball"></div>
+      <div class="premier ball side"></div>
+      <div class="premier ball open"></div>
+      <div class="premier ball roll"></div>
+      <div class="premier ball rock"></div>
+      <div class="premier ball bounce"></div>
+      <div class="sport ball"></div>
+      <div class="sport ball side"></div>
+      <div class="sport ball open"></div>
+      <div class="sport ball roll"></div>
+      <div class="sport ball rock"></div>
+      <div class="sport ball bounce"></div>
+    
+      <div class="net ball"></div>
+      <div class="net ball side"></div>
+      <div class="net ball open"></div>
+      <div class="net ball roll"></div>
+      <div class="net ball rock"></div>
+      <div class="net ball bounce"></div>
+      <div class="dive ball"></div>
+      <div class="dive ball side"></div>
+      <div class="dive ball open"></div>
+      <div class="dive ball roll"></div>
+      <div class="dive ball rock"></div>
+      <div class="dive ball bounce"></div>
+      <div class="nest ball"></div>
+      <div class="nest ball side"></div>
+      <div class="nest ball open"></div>
+      <div class="nest ball roll"></div>
+      <div class="nest ball rock"></div>
+      <div class="nest ball bounce"></div>
+      <div class="repeat ball"></div>
+      <div class="repeat ball side"></div>
+      <div class="repeat ball open"></div>
+      <div class="repeat ball roll"></div>
+      <div class="repeat ball rock"></div>
+      <div class="repeat ball bounce"></div>
+      <div class="timer ball"></div>
+      <div class="timer ball side"></div>
+      <div class="timer ball open"></div>
+      <div class="timer ball roll"></div>
+      <div class="timer ball rock"></div>
+      <div class="timer ball bounce"></div>
+      <div class="luxury ball"></div>
+      <div class="luxury ball side"></div>
+      <div class="luxury ball open"></div>
+      <div class="luxury ball roll"></div>
+      <div class="luxury ball rock"></div>
+      <div class="luxury ball bounce"></div>
+      <div class="dusk ball"></div>
+      <div class="dusk ball side"></div>
+      <div class="dusk ball open"></div>
+      <div class="dusk ball roll"></div>
+      <div class="dusk ball rock"></div>
+      <div class="dusk ball bounce"></div>
+      <div class="heal ball"></div>
+      <div class="heal ball side"></div>
+      <div class="heal ball open"></div>
+      <div class="heal ball roll"></div>
+      <div class="heal ball rock"></div>
+      <div class="heal ball bounce"></div>
+      <div class="quick ball"></div>
+      <div class="quick ball side"></div>
+      <div class="quick ball open"></div>
+      <div class="quick ball roll"></div>
+      <div class="quick ball rock"></div>
+      <div class="quick ball bounce"></div>
+      <div class="cherish ball"></div>
+      <div class="cherish ball side"></div>
+      <div class="cherish ball open"></div>
+      <div class="cherish ball roll"></div>
+      <div class="cherish ball rock"></div>
+      <div class="cherish ball bounce"></div>
+      <div class="fast ball"></div>
+      <div class="fast ball side"></div>
+      <div class="fast ball open"></div>
+      <div class="fast ball roll"></div>
+      <div class="fast ball rock"></div>
+      <div class="fast ball bounce"></div>
+      <div class="level ball"></div>
+      <div class="level ball side"></div>
+      <div class="level ball open"></div>
+      <div class="level ball roll"></div>
+      <div class="level ball rock"></div>
+      <div class="level ball bounce"></div>
+      <div class="lure ball"></div>
+      <div class="lure ball side"></div>
+      <div class="lure ball open"></div>
+      <div class="lure ball roll"></div>
+      <div class="lure ball rock"></div>
+      <div class="lure ball bounce"></div>
+      <div class="heavy ball"></div>
+      <div class="heavy ball side"></div>
+      <div class="heavy ball open"></div>
+      <div class="heavy ball roll"></div>
+      <div class="heavy ball rock"></div>
+      <div class="heavy ball bounce"></div>
+      <div class="love ball"></div>
+      <div class="love ball side"></div>
+      <div class="love ball open"></div>
+      <div class="love ball roll"></div>
+      <div class="love ball rock"></div>
+      <div class="love ball bounce"></div>
+      <div class="friend ball"></div>
+      <div class="friend ball side"></div>
+      <div class="friend ball open"></div>
+      <div class="friend ball roll"></div>
+      <div class="friend ball rock"></div>
+      <div class="friend ball bounce"></div>
+      <div class="moon ball"></div>
+      <div class="moon ball side"></div>
+      <div class="moon ball open"></div>
+      <div class="moon ball roll"></div>
+      <div class="moon ball rock"></div>
+      <div class="moon ball bounce"></div>
+      <div class="park ball"></div>
+      <div class="park ball side"></div>
+      <div class="park ball open"></div>
+      <div class="park ball roll"></div>
+      <div class="park ball rock"></div>
+      <div class="park ball bounce"></div>
+      <div class="dream ball"></div>
+      <div class="dream ball side"></div>
+      <div class="dream ball open"></div>
+      <div class="dream ball roll"></div>
+      <div class="dream ball rock"></div>
+      <div class="dream ball bounce"></div>
+      <div class="beast ball"></div>
+      <div class="beast ball side"></div>
+      <div class="beast ball open"></div>
+      <div class="beast ball roll"></div>
+      <div class="beast ball rock"></div>
+      <div class="beast ball bounce"></div>
+    </section>
+  
+    <p>Credit to <a href="https://www.pokecommunity.com/showpost.php?p=9938453&postcount=4">WolfPP from the PokéCommunity forums</a> for the excellent Pokéball sprite work! <br>
+      Pokémon Sprites from <a href="http://pokemondb.net">pokemondb.net</a>, and pokémon exit flourish borrowed from <a href="https://www.artstation.com/artwork/809NQ">Jimena on Artstation.</a>
+    </p>
+    
+  </main>
+  
+  
+  
+    
+    <label><input type="checkbox"> slow motion?</label>
+</body>
+</html>
+
