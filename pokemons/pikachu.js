@@ -30,19 +30,6 @@ $("input").on("change", (e) => {
   }
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 const pokes = [
   "bulbasaur",
   "squirtle",
