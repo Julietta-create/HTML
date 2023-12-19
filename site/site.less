@@ -1,0 +1,119 @@
+@color_1: #000000;
+@color_2: #ffffff;
+@color_3: #ff0000; 
+@font_family_1: Arial, sans-serif;
+	@background_color_1: #ffffff;
+	@background_color_2: transparent;
+
+	.new-year-card {
+		background-color: @background_color_2;
+		color: @color_2;
+		padding: 20px;
+		text-align: center;
+		max-width: 600px;
+		width: 100%;
+		position: relative;
+
+		.new-year-card__title {
+			font-size: 30px;
+			font-weight: bold;
+			white-space: nowrap;
+			position: relative;
+			overflow: hidden;
+			border-right: .15em solid @color_2;
+			animation:
+				typing 4s steps(40) 1s forwards,
+				blink-caret .75s step-end infinite,
+				colorChange 5s ease-in-out 5s infinite alternate;
+
+		}
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			height: 2px;
+			background-color: @background_color_1;
+			top: 0;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			height: 2px;
+			background-color: @background_color_1;
+			bottom: 0;
+		}
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		background-image: url("./background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100vw;
+		font-family: @font_family_1;
+		margin: 0;
+		padding: 0;
+		background-color: @background_color_1;
+		color: @color_1;
+		overflow: hidden;
+	}
+
+	p {
+		font-size: 25px;
+	}
+
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+
+		to {
+			width: 100%;
+		}
+	}
+
+	@keyframes colorChange {
+		from {
+			color: @color_2;
+		}
+
+		to {
+			color: @color_3;
+		}
+	}
+
+
+	@keyframes blinkingCursor {
+		50% {
+			opacity: 0;
+		}
+	}
+
+	@keyframes blink-caret {
+
+		from,
+		to {
+			border-color: transparent
+		}
+
+		50% {
+			border-color: @color_2;
+		}
+	}
+
+
+	
